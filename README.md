@@ -1,6 +1,6 @@
 **Course Structure**
 
-This repository mirrors the structure of the comprehensive Linux course offered by Imran Afzal. Each module covers essential topics, supplemented with quizzes, homework assignments, handouts.
+This repository mirrors the structure of the comprehensive Linux course offered by Imran Afzal. Each module covers essential topics, supplemented with quizzes, homework assignments and handouts.
 
 - **Module 1 - Understanding Linux Concepts:** Introduction to Linux, everyday use, and key differences from Unix.
 - **Module 2 - Download, Install and Configure:** Setting up Oracle Virtual Box, installing Linux distributions, and managing virtual machines.
