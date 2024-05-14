@@ -139,3 +139,38 @@ chgrp [options] group file
 ```bash
 % chgrp
 ```
+
+# Access control list
+
+## List of commands for setting up ACL:
+
+1. To add permission for a user:
+   ```
+   setfacl -m u:user:rwx /path/to/file
+   ```
+
+2. To add permissions for a group:
+   ```
+   setfacl -m g:group:rw /path/to/file
+   ```
+
+3. To allow all files or directories to inherit ACL entries from the directory it is within:
+   ```
+   setfacl -dm "entry" /path/to/dir
+   ```
+
+4. To remove a specific entry (for a specific user):
+   ```
+   setfacl -x u:user /path/to/file
+   ```
+
+5. To remove all entries (for all users):
+   ```
+   setfacl -b /path/to/file
+   ```
+
+**Note:**
+- As you assign the ACL permission to a file/directory, it adds a "+" sign at the end of the permission.
+- Setting write permission with ACL does not allow to remove a file.
+
+
