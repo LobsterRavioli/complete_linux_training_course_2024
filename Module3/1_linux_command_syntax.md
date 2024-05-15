@@ -3,7 +3,7 @@
 
 A command is a program that tells the Linux system to do something. It has the form:
 
-```
+```bash
 command [options] [arguments]
 ```
 
@@ -11,13 +11,13 @@ where an argument indicates on what the command is to perform its action, usuall
 
 Options are generally preceded by a hyphen (-), and for most commands, more than one option can be strung together, in the form:
 
-```
+```bash
 command -[option][option][option]
 ```
 
 e.g.:
 
-```
+```bash
 ls –alR
 ```
 
@@ -25,19 +25,19 @@ will perform a long list on all files in the current directory and recursively p
 
 For most commands you can separate the options, preceding each with a hyphen, e.g.:
 
-```
+```bash
 command -option1 -option2 -option3
 ```
 
 as in:
 
-```
+```bash
 ls -a -l -R
 ```
 
 Some commands have options that require parameters. Options requiring parameters are usually specified separately, e.g.:
 
-```
+```bash
 lpr -Pprinter3 -# 2 file
 ```
 
