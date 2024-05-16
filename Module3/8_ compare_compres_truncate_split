@@ -1,0 +1,24 @@
+### Compare Files
+
+- **diff**: Compares files line by line.
+- **cmp**: Compares files byte by byte.
+
+### Compress and Un-Compress Files
+
+- **tar**: Combines files into a single archive file.
+- **gzip**: Compresses files using the gzip algorithm.
+- `gzip –d` or `gunzip`: Un-compresses gzip compressed files.
+
+### Truncate File Size (truncate)
+
+- The `truncate` command is used to shrink or extend the size of a file to the specified size.
+- Command: `truncate –s 10 filename`
+
+### Combining and Splitting Files
+
+- Multiple files can be combined into one.
+- One file can be split into multiple files.
+- Command to combine files: `cat file1 file2 file3 > file4`
+- Command to split file: `split file4`
+- Example: `split –l 300 file.txt childfile`
+  - Splits file.txt into multiple files, each containing 300 lines, and outputs as childfileaa, childfileab, and childfileac.

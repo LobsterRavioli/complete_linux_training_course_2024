@@ -1,0 +1,9 @@
+### Navigating File System
+
+When navigating a UNIX filesystem, there are a few important commands:
+
+- **cd**: Change directory. It is the primary command for moving around the filesystem.
+- **pwd**: Print working directory. It tells you where your current location is.
+- **ls**: List. It lists all the directories/files within a current working directory.
+
+Using the TAB key to auto-complete can also be helpful.

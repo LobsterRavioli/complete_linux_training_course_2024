@@ -1,0 +1,17 @@
+
+### Sort and Uniq Commands
+
+- **Sort Command**: Sorts lines of text files in ascending or descending order.
+  - `sort`: Sorts file in alphabetical order.
+  - `sort -r`: Sorts file in reverse alphabetical order.
+  - `sort -k2`: Sorts file based on the second field.
+  - `sort --version` or `sort --help`: Displays version information or help for the sort command.
+
+- **Uniq Command**: Filters out repeated or duplicate lines from a sorted file.
+  - `uniq`: Removes consecutive duplicate lines from a sorted file.
+  - `sort file | uniq`: Removes duplicate lines from an unsorted file.
+  - `sort file | uniq -c`: Counts the number of occurrences for each line.
+  - `sort file | uniq -d`: Displays only duplicate lines.
+  
+Remember to sort the file before using `uniq` to ensure proper functionality. Use `sort --help` for more details on sort options.
+

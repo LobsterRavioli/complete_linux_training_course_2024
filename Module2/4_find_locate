@@ -1,0 +1,5 @@
+### Find Files and Directories
+
+- Two main commands are used to find files/directories:
+  - `find`
+  - `locate`

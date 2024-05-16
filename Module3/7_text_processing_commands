@@ -1,0 +1,11 @@
+### WC Command
+
+- **Description**: The `wc` command reads either standard input or a list of files and generates counts for newline, word, and byte.
+- `wc --version` or `wc --help`: Displays version information or help for the wc command.
+- `wc file`: Provides counts for newline, word, and byte in the specified file.
+- `wc -l file`: Counts the number of lines in the specified file.
+- `wc -w file`: Counts the number of words in the specified file.
+- `wc -b file`: Counts the number of bytes in the specified file.
+- `wc DIRECTORY`: Not allowed.
+- `ls –l | wc -l`: Counts the number of files in the current directory.
+- `grep keyword | wc -l`: Counts the number of lines containing the specified keyword.
